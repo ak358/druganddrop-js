@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   height: 100vh;
+   background-color: lightblue;
+    display:grid;
+    place-items: center;
+}
+
+.fill{
+    background-image: url("./img/honey.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    cursor:pointer;
+
+    border:2px solid;
+    border-color: blue;
+    padding:5px 5px;
+}
+
+.enpty{
+    display:inline-block;
+    width:260px;
+    height:260px;
+    border:2px solid;
+}
